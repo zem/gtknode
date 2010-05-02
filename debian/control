@@ -1,13 +1,15 @@
-Source: gtknode
-Section: unknown
-Priority: extra
+Source: erlang-gtknode
+Section: interpreters
+Priority: optional
 Maintainer: Hans Freitag <zem@fnordpol.de>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.4
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://code.google.com/p/gtknode/
 
-Package: gtknode
+Package: erlang-gtknode
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: a reasonably complete erlang binding for GTK+2
+ the project is aimed at providing a reasonably complete erlang binding 
+ for GTK+2. it is primarily intended for relatively simple GUI's, and 
+ encourages the use of the glade GUI builder.
