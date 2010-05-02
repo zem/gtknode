@@ -1,0 +1,5 @@
+gtknode (0.30.20100502git-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Hans Freitag <zem@fnordpol.de>  Sun, 02 May 2010 21:12:34 +0200
